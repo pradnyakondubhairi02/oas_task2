@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"
+        integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe"
+        crossorigin="anonymous"></script>
+</head>
+<style>
+    .collapse{
+        margin-left: 30%;
+    }
+
+    .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  /* background-color: #008CBA; */
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.con1{
+    display: flex;
+    margin-left: 10%;
+    /* margin-right: 10%; */
+    margin-top: 10%;
+}
+.con2{
+    display: flex;
+    margin-left: 10%;
+    /* margin-right: 10%; */
+    margin-top: 5%;
+}
+
+.container{
+    margin-right: 5%;
+}
+.container .temp img{
+    width: 100%;
+    height: 100%;
+}
+
+.container img{
+   
+    width:400px;
+    height: 300px;
+}
+
+
+.container {
+  position: relative;
+  
+}
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-dark fixed-top">
+        <div class="collapse navbar-collapse justify-content-between" id="nav">
+        <ul class="navbar-nav">
+
+              <li class="nav-item">
+
+                  <a class="nav-link text-light font-weight-bold px-3" href="home.html">HOME</a>
+
+              </li>
+
+              <li class="nav-item">
+
+                  <a class="nav-link text-light font-weight-bold px-3" href="#about">ABOUT</a>
+
+              </li>
+
+              <li class="nav-item">
+
+                  <a class="nav-link text-light font-weight-bold px-3" href="#skills">SKILLS</a>
+
+              </li>
+
+              <li class="nav-item">
+
+                  <a class="nav-link text-light font-weight-bold px-3" href="#resume">RESUME</a>
+
+              </li>
+
+              <li class="nav-item">
+
+                  <a class="nav-link text-light font-weight-bold px-3" href="img.html">PROJECT</a>
+
+              </li>
+
+              <li class="nav-item">
+
+                  <a class="nav-link text-light font-weight-bold px-3" href="#contact">CONTACT</a>
+
+              </li>
+
+          </ul>
+
+
+      </div>
+
+  </nav>
+
+    <div class="con1">
+    <div class="container">
+       <img class="img-fluid" src="pg.webp">
+        <div class="overlay">
+            <a class="text"  href="https://github.com/pradnyakondubhairi02/miniproject.git">Paying Guest Managment System</a>
+        </div>
+        </div>
+  
+
+
+    <div class="container">
+        
+        <img class="img-fluid" src="sub.jpg" alt="">
+        <div class="overlay">  
+            <a class="text"  href="https://github.com/pradnyakondubhairi02/subscription.git">Kidshow Subscription</a>
+        </div>
+        </div>
+  
+
+    <div class="container">
+    
+        <img class="img-fluid" src="calcy.jpg">
+        <div class="overlay">
+            <a class="text"  href="https://github.com/pradnyakondubhairi02/miniproject.git">Calculator</a></div>
+            <!-- <a class="nav-link text-light font-weight-bold px-3" href="#home">HOME</a> -->
+    </div>
+        </div>
+
+
+
+      <div class="con2">
+        <div class="container">
+
+            <img class="img-fluid" src="child.jpg" alt="">
+            <div class="overlay">
+                <!-- <div class="text"></div> -->
+                <a class="text"  href="https://github.com/pradnyakondubhairi02/child_event.git">Children Day Event</a>
+            </div>
+            </div>
+        
+
+    <div class="container">
+       
+        <img class="img-fluid" src="temp.jpg" alt="">
+        <div class="overlay">
+            <a class="text"  href="https://github.com/pradnyakondubhairi02/miniproject.git">temperature Converter</a>
+        </div>
+    </div>  
+     
+   
+</div>
+</body>
+</html>
